@@ -1,0 +1,1 @@
+env\Scripts\activate && pip install -r requirements.txt && python create_tables.py && fastapi dev
