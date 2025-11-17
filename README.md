@@ -12,13 +12,13 @@ API для управления мини-маркетом на FastAPI и Postgr
 Установка и запуск:
 bash
 
-git clone <ваш-репозиторий>
-cd mini-market-api
-python -m venv env
-env\Scripts\activate
-pip install -r requirements.txt
-python create_tables.py
-fastapi dev main.py
+    git clone <ваш-репозиторий>
+    cd mini-market-api
+    python -m venv env
+    env\Scripts\activate
+    pip install -r requirements.txt
+    python create_tables.py
+    fastapi dev main.py
 
 Приложение будет доступно по адресу: http://localhost:8000
 Основные запросы API
